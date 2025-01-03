@@ -1,7 +1,7 @@
 return {
-  {
-    "rebelot/kanagawa.nvim",
-    lazy = true,
-    opts = { style = "dragon" },
-  },
+    {
+        "rebelot/kanagawa.nvim",
+        lazy = true,
+        opts = { style = "dragon" },
+    },
 }

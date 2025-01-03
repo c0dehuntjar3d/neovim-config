@@ -6,6 +6,9 @@ local opts = { noremap = true, silent = true }
 keymap.set("n", "<Leader>o", "o<Esc>^Da", opts)
 keymap.set("n", "<Leader>O", "O<Esc>^Da", opts)
 
+keymap.set("i", "jk", "<ESC>", opts)
+keymap.set("i", "kj", "<ESC>", opts)
+
 -- Delete a word backwards
 keymap.set("n", "dw", 'vb"_d')
 
